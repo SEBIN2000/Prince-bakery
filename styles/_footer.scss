@@ -1,0 +1,61 @@
+
+footer{
+padding-top: 40px;
+}
+.uk-container{
+   
+    img{
+        width: 200px;
+        @include respond-above(sm){
+            width: 200px;
+        }
+    }
+    .uk-column-1-3{
+        background-color: rgba(73, 201, 240, 0.562);
+        height: 38rem;
+        padding-top: 30px;
+        @include respond-above(sm){
+            height: 20rem;
+        }
+        .icons{
+             flex-direction: row;
+        }
+        .uk-margin{
+            margin-bottom: -35px;
+        }
+    }
+    .icon{
+        height: 25rem;
+        margin-top: 6px;
+        h3{
+            font-family: $font-regular;
+            font-weight: $font-bold;
+        }
+    }
+    .form{
+        height: 25rem;
+        margin-top: 40px;
+        @include respond-above(sm){
+            height: 20rem;
+        }
+        h2{
+            font-family: $font-regular;
+            font-weight: $font-bold;
+        }
+    }
+    .time{
+        height: 25rem;
+        margin-top: 40px;
+        @include respond-above(sm){
+            height: 15rem;
+        }
+        h2{
+            font-family: $font-regular;
+            font-weight: $font-bold;
+        }
+        small{
+            font-family: $font-regular;
+            font-weight: $font-bold;
+        }
+    }
+}

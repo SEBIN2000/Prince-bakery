@@ -1,0 +1,64 @@
+.body-part{
+  height: 54rem;
+    @include respond-above(sm){
+        padding-top: 30px;
+        height: 30rem;
+    }
+}
+.uk-container{
+    .uk-flex{
+        flex-direction: column;
+        @include respond-above(sm){
+            flex-direction: row;
+        }
+    }
+    .body-first{
+      
+
+        .left-text{
+            margin-top: 20px;
+            h1{
+                font-size: 35px;
+                @include respond-above(sm){
+                    font-size: 40px;
+                    font-family: $font-regular;
+                    font-weight: $font-bold;
+                }
+           }
+           p{
+            font-size: 12px;
+            @include respond-above(sm){
+                font-size: 18px;
+                font-family: $font-regular; 
+           }
+        }
+        .check-btn{
+            background-color:$secondary-color ;
+            color:white;
+            transition: .5s ease-in-out ;
+            padding: 10px;
+            @include respond-above(sm){
+                font-size: 20px;
+                font-family: $font-regular;
+                padding: .5rem;
+                width: 8rem;
+                &:hover{
+                    color:$primary-color;
+                }
+            }
+        }
+    }
+    .first-img,.second-img{
+        margin: 30px;
+      
+        img{
+            width: 50rem;
+            box-shadow: 2px 6px 8px rgb(26, 23, 18);
+            @include respond-above(sm){
+                width: 100rem;
+                height: 18rem;
+            }
+        }
+    }
+    }
+}

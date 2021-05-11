@@ -1,0 +1,73 @@
+.product-part{
+    height: 100rem;
+     &::before{
+         content: "";
+         position: absolute;
+        background-image: url("../images/3606.jpg");
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     height: 96rem;
+     width: 100%;
+  
+     @include respond-above(sm){
+        height: 48rem;
+        background-size: cover;
+        width: 100%;
+    }
+     }
+     @include respond-above(sm){
+        height: 48rem;
+       
+    }
+
+.uk-container{
+    position: relative;
+    z-index: 1;
+   
+    .uk-grid-column-small, .uk-grid-small {
+        margin-left: 0px;
+        margin-top: 20px;
+        @include respond-above(sm){
+           margin-top: 60px;
+           margin-left: 0px;
+       }
+    }
+        .uk-card-body {
+            display: flow-root;
+            padding: 0px 0px;
+      
+        @include respond-above(sm){
+            display: flow-root;
+            padding: 30px 20px;
+        }
+        h2{
+            font-size: 30px;
+            font-family: $font-regular;
+            font-weight: $font-bold;
+            margin: auto;
+            @include respond-above(sm){
+                font-size: 40px;
+            }
+        }
+    }
+    .uk-grid-column-small>*, .uk-grid-small>* {
+        padding-left: 0px;
+        @include respond-above(sm){
+            padding-left: 15px;
+        }
+    }
+        .uk-card{
+            img{
+                margin-top: 30px;
+                height: 170px;
+                @include respond-above(sm){
+                    width: 280px;
+                    height: 180px;
+               }
+            }
+        }
+        
+    
+}
+}

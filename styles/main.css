@@ -1,0 +1,461 @@
+@font-face {
+  font-family: "Mulish";
+  src: url("../fonts/Mulish-Light.woff2") format("woff2"), url("../fonts/Mulish-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Mulish";
+  src: url("../fonts/Mulish-SemiBold.woff2") format("woff2"), url("../fonts/Mulish-SemiBold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Mulish";
+  src: url("../fonts/Mulish-Regular.woff2") format("woff2"), url("../fonts/Mulish-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Mulish";
+  src: url("../fonts/Mulish-Bold.woff2") format("woff2"), url("../fonts/Mulish-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+h1 {
+  font-size: 35px;
+  font-family: normal;
+  font-weight: bold;
+}
+
+@media (min-width: 640px) {
+  h1 {
+    font-size: 50px;
+  }
+}
+
+h4 {
+  margin-top: 30px;
+}
+
+header {
+  width: 100%;
+  background-image: url("../images/top-view-shakh-plov-delicious-eastern-meal-consists-cooked-rice-inside-round-dough-dark-background-rice-cooking-meal-food-eastern-cuisine.jpg");
+  height: 40rem;
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+}
+
+@media (max-width: 639px) {
+  header {
+    width: 100%;
+    background-image: url("../images/top-view-shakh-plov-delicious-eastern-meal-consists-cooked-rice-inside-round-dough-dark-background-rice-cooking-meal-food-eastern-cuisine.jpg");
+    height: 18rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
+header .uk-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  max-width: 100%;
+  height: 6rem;
+}
+
+header .logo {
+  max-width: 100px;
+}
+
+@media (min-width: 640px) {
+  header .logo {
+    max-width: 150px;
+    margin-right: 65px;
+  }
+}
+
+header img {
+  width: 200px;
+}
+
+@media (min-width: 640px) {
+  header img {
+    width: 300px;
+  }
+}
+
+header .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  list-style: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (min-width: 640px) {
+  header .menu {
+    padding-top: 18px;
+  }
+}
+
+header .menu li {
+  margin-right: 8px;
+}
+
+header .menu li a {
+  font-size: 10px;
+  color: black;
+  font-weight: 500;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  text-decoration: none;
+}
+
+header .menu li a:hover {
+  color: #e88300;
+}
+
+@media (min-width: 640px) {
+  header .menu li a {
+    font-size: 18px;
+    font-family: normal;
+    margin-right: 30px;
+  }
+}
+
+header .hero-text {
+  max-width: 40rem;
+  margin: 30px;
+  position: relative;
+}
+
+@media (min-width: 640px) {
+  header .hero-text {
+    max-width: 40rem;
+    margin: 150px;
+  }
+}
+
+header .hero-text h1 {
+  color: white;
+  font-weight: bold;
+  font-family: "Mulish", sans-serif;
+  font-size: 30px;
+  position: relative;
+  top: 0;
+}
+
+@media (min-width: 640px) {
+  header .hero-text h1 {
+    font-size: 50px;
+    font-family: normal;
+    font-weight: bold;
+  }
+}
+
+header .hero-text p {
+  color: white;
+  font-weight: bold;
+  font-family: "Mulish", sans-serif;
+  font-size: 15px;
+}
+
+@media (min-width: 640px) {
+  header .hero-text p {
+    font-size: 25px;
+    font-family: normal;
+    font-weight: bold;
+  }
+}
+
+.body-part {
+  height: 54rem;
+}
+
+@media (min-width: 640px) {
+  .body-part {
+    padding-top: 30px;
+    height: 30rem;
+  }
+}
+
+.uk-container .uk-flex {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media (min-width: 640px) {
+  .uk-container .uk-flex {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+.uk-container .body-first .left-text {
+  margin-top: 20px;
+}
+
+.uk-container .body-first .left-text h1 {
+  font-size: 35px;
+}
+
+@media (min-width: 640px) {
+  .uk-container .body-first .left-text h1 {
+    font-size: 40px;
+    font-family: normal;
+    font-weight: bold;
+  }
+}
+
+.uk-container .body-first .left-text p {
+  font-size: 12px;
+}
+
+@media (min-width: 640px) {
+  .uk-container .body-first .left-text p {
+    font-size: 18px;
+    font-family: normal;
+  }
+}
+
+.uk-container .body-first .left-text .check-btn {
+  background-color: #e88300;
+  color: white;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  padding: 10px;
+}
+
+@media (min-width: 640px) {
+  .uk-container .body-first .left-text .check-btn {
+    font-size: 20px;
+    font-family: normal;
+    padding: .5rem;
+    width: 8rem;
+  }
+  .uk-container .body-first .left-text .check-btn:hover {
+    color: black;
+  }
+}
+
+.uk-container .body-first .first-img, .uk-container .body-first .second-img {
+  margin: 30px;
+}
+
+.uk-container .body-first .first-img img, .uk-container .body-first .second-img img {
+  width: 50rem;
+  -webkit-box-shadow: 2px 6px 8px #1a1712;
+          box-shadow: 2px 6px 8px #1a1712;
+}
+
+@media (min-width: 640px) {
+  .uk-container .body-first .first-img img, .uk-container .body-first .second-img img {
+    width: 100rem;
+    height: 18rem;
+  }
+}
+
+.product-part {
+  height: 100rem;
+}
+
+.product-part::before {
+  content: "";
+  position: absolute;
+  background-image: url("../images/3606.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 96rem;
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  .product-part::before {
+    height: 48rem;
+    background-size: cover;
+    width: 100%;
+  }
+}
+
+@media (min-width: 640px) {
+  .product-part {
+    height: 48rem;
+  }
+}
+
+.product-part .uk-container {
+  position: relative;
+  z-index: 1;
+}
+
+.product-part .uk-container .uk-grid-column-small, .product-part .uk-container .uk-grid-small {
+  margin-left: 0px;
+  margin-top: 20px;
+}
+
+@media (min-width: 640px) {
+  .product-part .uk-container .uk-grid-column-small, .product-part .uk-container .uk-grid-small {
+    margin-top: 60px;
+    margin-left: 0px;
+  }
+}
+
+.product-part .uk-container .uk-card-body {
+  display: flow-root;
+  padding: 0px 0px;
+}
+
+@media (min-width: 640px) {
+  .product-part .uk-container .uk-card-body {
+    display: flow-root;
+    padding: 30px 20px;
+  }
+}
+
+.product-part .uk-container .uk-card-body h2 {
+  font-size: 30px;
+  font-family: normal;
+  font-weight: bold;
+  margin: auto;
+}
+
+@media (min-width: 640px) {
+  .product-part .uk-container .uk-card-body h2 {
+    font-size: 40px;
+  }
+}
+
+.product-part .uk-container .uk-grid-column-small > *, .product-part .uk-container .uk-grid-small > * {
+  padding-left: 0px;
+}
+
+@media (min-width: 640px) {
+  .product-part .uk-container .uk-grid-column-small > *, .product-part .uk-container .uk-grid-small > * {
+    padding-left: 15px;
+  }
+}
+
+.product-part .uk-container .uk-card img {
+  margin-top: 30px;
+  height: 170px;
+}
+
+@media (min-width: 640px) {
+  .product-part .uk-container .uk-card img {
+    width: 280px;
+    height: 180px;
+  }
+}
+
+footer {
+  padding-top: 40px;
+}
+
+.uk-container img {
+  width: 200px;
+}
+
+@media (min-width: 640px) {
+  .uk-container img {
+    width: 200px;
+  }
+}
+
+.uk-container .uk-column-1-3 {
+  background-color: rgba(73, 201, 240, 0.562);
+  height: 38rem;
+  padding-top: 30px;
+}
+
+@media (min-width: 640px) {
+  .uk-container .uk-column-1-3 {
+    height: 20rem;
+  }
+}
+
+.uk-container .uk-column-1-3 .icons {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.uk-container .uk-column-1-3 .uk-margin {
+  margin-bottom: -35px;
+}
+
+.uk-container .icon {
+  height: 25rem;
+  margin-top: 6px;
+}
+
+.uk-container .icon h3 {
+  font-family: normal;
+  font-weight: bold;
+}
+
+.uk-container .form {
+  height: 25rem;
+  margin-top: 40px;
+}
+
+@media (min-width: 640px) {
+  .uk-container .form {
+    height: 20rem;
+  }
+}
+
+.uk-container .form h2 {
+  font-family: normal;
+  font-weight: bold;
+}
+
+.uk-container .time {
+  height: 25rem;
+  margin-top: 40px;
+}
+
+@media (min-width: 640px) {
+  .uk-container .time {
+    height: 15rem;
+  }
+}
+
+.uk-container .time h2 {
+  font-family: normal;
+  font-weight: bold;
+}
+
+.uk-container .time small {
+  font-family: normal;
+  font-weight: bold;
+}
+/*# sourceMappingURL=main.css.map */
